@@ -219,5 +219,12 @@ padding-top: 24px;
         z-index: -1;
         align-items: center;
         justify-content: center; 
-}    
+} 
+.logo{
+    position: absolute;
+    width: 125px;
+    height: 141.75px;
+    left: 35px;
+    top: 31px;  
+}
 }
