@@ -26,10 +26,93 @@ body {
     padding: 64px;
 }
 
+/* Logomarca week food */
 .container img{
     position: absolute;
     width: 125px;
     height: 141.75px;
     left: 128px;
     top: 66px;
+}
+
+/* mais qualidade na sua alimentação... */
+.container p{
+    position: absolute;
+    left: 9.03%;
+    top: 220px;
+    bottom: 83.68%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+/* Chega de fastfood todo dia, a weekFood vai te ajudar! */
+.container h1{
+    position: absolute;
+    left: 9.03%;
+    top: 45%;
+    bottom: 75.48%;
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 800;
+    font-size: 44.8276px;
+    line-height: 55px;
+    color: #F9C200;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* label do imput */
+label {
+    position: absolute;
+    width: 452px;
+    height: 20px;
+    left: 131px;
+    top: 580px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+  
+input[type="email"] {
+position: absolute;
+width: 390px;
+height: 41px;
+left: 130px;
+top: 620px;
+background: #FFFFFF;
+border-radius: 16px;
+border: none;
+}
+  
+button[type="submit"] {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    position: absolute;
+    width: 228px;
+    height: 43px;
+    left: 538px;
+    top: 620px;
+    color: #FFFFFF;
+    background: #A80000;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+}
+  
+button[type="submit"] :hover{
+    background: #d97400;
 }
