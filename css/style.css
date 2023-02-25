@@ -5,14 +5,6 @@ body {
     background-color: #F9C200;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 64px;
-  }
-
 /* Background-hero */
 .background-hero {
     background: url(../img/background-hero.jpg);
@@ -24,4 +16,12 @@ body {
     z-index: -1;
     align-items: center;
     justify-content: center; 
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 64px;
   }
