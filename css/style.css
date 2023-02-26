@@ -441,7 +441,6 @@ position: absolute;
 width: 238px;
 height: 29px;
 left: 23px;
-top: 1564px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
@@ -457,7 +456,6 @@ margin: 0;
     width: 309px;
     height: 482px;
     left: 48px;
-    top: 1624px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -465,7 +463,7 @@ margin: 0;
     line-height: 34px;
     color: #830202; 
 margin: 0;
-padding: 0;
+padding: 48px 0px 0px 0px ;
 }
 
     
