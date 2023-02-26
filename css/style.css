@@ -484,7 +484,7 @@ margin-top: 66px;
     line-height: 30px;
 }
 .input-hero[type="email"] {
-    width: 80%;
+    width: 70%;
     height: 41px;
     left: 9.03%;
     top: 77%;
@@ -496,7 +496,7 @@ margin-top: 66px;
 
 /* Tablet 768 - Funcionalidades */
 .funcionalities{
-    height: 1620px;
+    height: 1690px;
     margin: 0px;
 }
 .mockup {
@@ -518,7 +518,7 @@ margin-top: 66px;
     left: 8%;
 }
 .funcionalities ul {
-    width: 80%;
+    width: 300px;
     left: 6%;
     height: auto;
     margin-top: 860px;
@@ -529,6 +529,7 @@ margin-top: 66px;
 /* Mobile 418 - Footer */
 footer {
     height: 540px;
+  
   }
 .container-footer label{
     left: 19%;
