@@ -304,8 +304,10 @@ padding-top: 24px;
 }
     
 .background-hero {
-        background: url(../img/background-hero-mobile.jpg);
-        height:844px;
+    display: flex;
+        background: url(../img/background-hero-mobile.jpg) no-repeat center;
+        background-size: cover;
+        z-index: -1;
 }
 
 .logo{
@@ -313,12 +315,12 @@ padding-top: 24px;
     width: 100px;
     height: auto;
     left: 24px;
-    top: 31px;  
+    top: 48px;  
 }
 .container p{
     position: absolute;
     left: 24px;
-    top: 160px;
+    top: 260px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -330,7 +332,7 @@ padding-top: 24px;
     position: absolute;
     width: 360px;
     left: 24px;
-    top: 248px;
+    top: 348px;
     font-family: 'Montserrat';
     font-style: bold;
     font-weight: 800;
@@ -341,20 +343,18 @@ padding-top: 24px;
     margin: 0;
 }
 
-
+/* Forms */
 form {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-/* label do imput */
 label {
     position: absolute;
     width: 300px;
     height: 20px;
     left: 24px;
-    top: 416px;
+    top: 516px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -368,7 +368,7 @@ input[type="email"] {
     width: 296px;
     height: 41px;
     left: 24px;
-    top: 480px;
+    top: 572px;
     background: #FFFFFF;
     border-radius: 16px;
     border: none;
@@ -397,7 +397,7 @@ button[type="submit"] {
     padding: 12px 16px;
     position: absolute;
     left: 24px;
-    top: 532px;
+    top: 632px;
     color: #FFFFFF;
     background: #A80000;
     border-radius: 16px;
@@ -416,10 +416,10 @@ button[type="submit"]:hover{
     cursor: pointer;
 }
 
+/*Funcionalities*/
 .funcionalities h2{
     
     left: 24px;
-    top: 728px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -430,11 +430,10 @@ button[type="submit"]:hover{
     margin: 0;
 }
 .mockup {
-    position: absolute;
     width: 308px;
     height: auto;
-    left: 24px;
-    top: 875px;
+    padding-top: 32px;
+    align-items: center;
 }
     
 .funcionalities h3{
@@ -442,7 +441,7 @@ position: absolute;
 width: 238px;
 height: 29px;
 left: 23px;
-top: 1424px;
+top: 1564px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
@@ -456,9 +455,9 @@ margin: 0;
 .funcionalities ul{
     position: absolute;
     width: 309px;
-    height: 442px;
-    left: 8px;
-    top: 1424px;
+    height: 482px;
+    left: 48px;
+    top: 1624px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
