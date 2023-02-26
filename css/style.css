@@ -14,20 +14,10 @@ body {
     height: 100vh;
     top: 0;
     z-index: -1;
-    align-items: center;
-    justify-content: center; 
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 64px;
 }
 
 /* Logomarca week food */
-.logo{
+.logo {
     position: absolute;
     width: 125px;
     height: 141.75px;
@@ -187,16 +177,31 @@ padding-top: 24px;
     color: #830202;  
 }
 
+.form-footer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-
+.form-footer label {
+    position: absolute;
+    width: 452px;
+    height: 20px;
+    left: 9.03%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
 
 /* Responsividade - Mobile First */
 
 /* TABLET */
 @media only screen and (max-width: 768px) {
-
 .background-hero {
-    background: url(../img/background-hero.jpg);
+    background: url(../img/background-hero-tablet.jpg);
     background-size: cover;
     width:100%;
     align-items: stretch;
@@ -215,101 +220,84 @@ padding-top: 24px;
     position: absolute;
     margin-top: 24px;
 }
-    
-    /* Chega de fastfood todo dia, a weekFood vai te ajudar! */
-    .container h1 {
-      position: absolute;
-      font-size: 28px;
-      line-height: 34px;
-    }
-    
-    /* Form */
-    form {
-      margin-top: 48px;
-    }
-    
-    /* label do imput */
-    label {
-      position: absolute;
-      top: 600px;
-      text-align: left;
-    }
-      
-    input[type="email"] {
-      position: absolute;
-      width: 380px;
-      height: 48px;
-      background: #FFFFFF;
-      border-radius: 16px;
-      border: none;
-      font-size: 16px;
-      line-height: 20px;
-      top: 660px;
-    
-    }
-    
-    input[type="email"]::placeholder {
-      color: #c5c5c5;
-    }
-    
-    button[type="submit"] {
-      position: absolute;
-      top: 660px;
-    
-    }
-    
-    .mockup {
-      position: static;
-      width: 100%;
-      height: auto;
-      margin-bottom: 24px;
-    }
-    
-    .funcionalities h2 {
-      position: static;
-      width: 100%;
-      text-align: center;
-      font-size: 28px;
-      line-height: 34px;
-      margin-top: 48px;
-      margin-bottom: 24px;
-    }
-    
-    .funcionalities h3 {
-      position: static;
-      width: 100%;
-      text-align: center;
-      font-size: 24px;
-      line-height: 29px;
-      margin-top: 48px;
-    }
-    
-    .funcionalities ul {
-      position: static;
-      width: 100%;
-      height: auto;
-      margin-top: 24px;
-      margin-bottom: 48px;
-      padding-left: 24px;
-      padding-right: 24px;
-    }
-  }
-
-
+.container h1 {
+    position: absolute;
+    font-size: 28px;
+    line-height: 34px;
+}   
+/* Form */
+form {
+    margin-top: 48px;
+}
+/* label do imput */
+label {
+    position: absolute;
+    top: 600px;
+    text-align: left;
+}
+input[type="email"] {
+    position: absolute;
+    width: 380px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    border: none;
+    font-size: 16px;
+    line-height: 20px;
+    top: 660px;
+}
+input[type="email"]::placeholder {
+    color: #c5c5c5;
+}
+button[type="submit"] {
+    position: absolute;
+    top: 660px;
+}
+.mockup {
+    position: static;
+    width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+}
+.funcionalities h2 {
+    position: static;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 34px;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+.funcionalities h3 {
+    position: static;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 48px;
+}
+.funcionalities ul {
+    position: static;
+    width: 100%;
+    height: auto;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+}
 
 /* MOBILE */
 @media only screen and (max-width: 418px) {
 .container {
     padding: 0px;
-}
-    
+} 
 .background-hero {
     display: flex;
         background: url(../img/background-hero-mobile.jpg) no-repeat center;
         background-size: cover;
         z-index: -1;
 }
-
 .logo{
     position: absolute;
     width: 100px;
@@ -361,8 +349,7 @@ label {
     font-size: 16px;
     line-height: 20px;
     color: #FFFFFF;
-}
-  
+} 
 input[type="email"] {
     position: absolute;
     width: 296px;
@@ -379,7 +366,6 @@ input[type="email"] {
     line-height: 20px;
     padding-left: 12px
 }
-
 input[type="email"]::placeholder {
     font-family: 'Montserrat';
     font-style: normal;
@@ -388,7 +374,6 @@ input[type="email"]::placeholder {
     line-height: 20px;
     color: #c5c5c5;
 }
-
 button[type="submit"] {
     display: flex;
     flex-direction: row;
@@ -409,7 +394,6 @@ button[type="submit"] {
     line-height: 20px;
     cursor: pointer;
 }
-
 button[type="submit"]:hover{
     background: #F9C200;
     color: #A80000;
@@ -434,8 +418,7 @@ button[type="submit"]:hover{
     height: auto;
     padding-top: 32px;
     align-items: center;
-}
-    
+}   
 .funcionalities h3{
 position: absolute;
 width: 238px;
@@ -449,8 +432,7 @@ line-height: 29px;
 color: #A80000;
 padding: 0;
 margin: 0;
-}
-    
+}   
 .funcionalities ul{
     position: absolute;
     width: 309px;
