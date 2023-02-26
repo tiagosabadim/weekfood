@@ -212,11 +212,18 @@ padding-top: 24px;
 
 /* MOBILE */
 @media (max-width: 480px) {
+    body {
+        margin: 0;
+        padding: 0;
+        max-width: 480px;
+        background-color: #F9C200;
+    }
+    
 .background-hero {
         background: url(../img/background-hero-mobile.jpg);
         background-size: cover;
         position: relative;
-        width: 100%;
+        width: 100vw;
         height: 100vh;
         top: 0;
         z-index: -1;
@@ -225,31 +232,157 @@ padding-top: 24px;
 } 
 .logo{
     position: absolute;
-    width: 125px;
-    height: 141.75px;
-    left: 9.41%;
+    width: 100px;
+    height: auto;
+    left: 24px;
     top: 31px;  
 }
 .container p{
     position: absolute;
-    left: 9.41%;
-    top: 7%;
+    left: 24px;
+    top: 160px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 29px;
     color: #FFFFFF;
 }
 .container h1{
     position: absolute;
-    left: 9.41%;
-    top: 11,48%;
+    width: 360px;
+    left: 24px;
+    top: 248px;
     font-family: 'Montserrat';
     font-style: bold;
     font-weight: 800;
-    font-size: 32px;
+    font-size: 24px;
     line-height: 39px;
     color: #F9C200;
 }
+
+.funcionalities h2{
+    position: absolute;
+    width: 346px;
+    height: 116px;
+    left: 24px;
+    top: 728px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.mockup {
+    position: absolute;
+    width: 308px;
+    height: auto;
+    left: 24px;
+    top: 875px;
+}
+    
+.funcionalities h3{
+position: absolute;
+width: 238px;
+height: 29px;
+left: 23px;
+top: 1424px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+color: #A80000;
+}
+    
+.funcionalities ul{
+    position: absolute;
+    width: 309px;
+    height: 442px;
+    left: 8px;
+    top: 1424px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+    color: #830202; 
+}
+
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /* label do imput */
+    label {
+        position: absolute;
+        width: 300px;
+        height: 20px;
+        left: 24px;
+        top: 416px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+      
+    input[type="email"] {
+        position: absolute;
+        width: 296px;
+        height: 41px;
+        left: 24px;
+        top: 480px;
+        background: #FFFFFF;
+        border-radius: 16px;
+        border: none;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        padding-left: 12px
+    }
+    
+    input[type="email"]::placeholder {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #c5c5c5;
+    }
+    
+    button[type="submit"] {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 16px;
+        position: absolute;
+        left: 24px;
+        top: 532px;
+        color: #FFFFFF;
+        background: #A80000;
+        border-radius: 16px;
+        border: none;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        cursor: pointer;
+    }
+    
+    button[type="submit"]:hover{
+        background: #F9C200;
+        color: #A80000;
+        cursor: pointer;
+    }
+    
 }
