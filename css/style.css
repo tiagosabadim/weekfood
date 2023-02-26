@@ -190,9 +190,9 @@ padding-top: 24px;
 
 
 
+/* Responsividade - Mobile First */
 
-
-
+/* TABLET */
 @media (max-width: 768px) {
 .background-hero {
     background: url(../img/background-hero-tablet.jpg);
@@ -208,6 +208,9 @@ padding-top: 24px;
 
 }
 
+
+
+/* MOBILE */
 @media (max-width: 480px) {
 .background-hero {
         background: url(../img/background-hero-mobile.jpg);
@@ -230,7 +233,7 @@ padding-top: 24px;
 .container p{
     position: absolute;
     left: 9.41%;
-    top: 8.19%;
+    top: 7%;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
