@@ -320,7 +320,7 @@ padding-top: 24px;
 .container p{
     position: absolute;
     left: 24px;
-    top: 260px;
+    top: 160px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -332,7 +332,7 @@ padding-top: 24px;
     position: absolute;
     width: 360px;
     left: 24px;
-    top: 348px;
+    top: 240px;
     font-family: 'Montserrat';
     font-style: bold;
     font-weight: 800;
@@ -354,7 +354,7 @@ label {
     width: 300px;
     height: 20px;
     left: 24px;
-    top: 516px;
+    top: 408px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -368,7 +368,7 @@ input[type="email"] {
     width: 296px;
     height: 41px;
     left: 24px;
-    top: 572px;
+    top: 460px;
     background: #FFFFFF;
     border-radius: 16px;
     border: none;
@@ -397,7 +397,7 @@ button[type="submit"] {
     padding: 12px 16px;
     position: absolute;
     left: 24px;
-    top: 632px;
+    top: 514px;
     color: #FFFFFF;
     background: #A80000;
     border-radius: 16px;
