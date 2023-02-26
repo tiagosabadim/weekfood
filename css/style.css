@@ -311,90 +311,142 @@ inline-size: auto;
 
 /* TABLET */
 @media only screen and (max-width: 768px) {
+
+/* Tablet - Imagem e texto Hero */
 .background-hero {
     background: url(../img/background-hero-tablet.jpg);
     background-size: cover;
     width:100%;
-    align-items: stretch;
 }
-.container {
-    padding: 0px;
-}   
 .logo {
-    position: absolute;
-    width: 125px;
-    height: 141.75px;
-    left: 9.03%;
-    top: 66px;
+    top: 164px;
 }
 .container p {
-    position: absolute;
-    margin-top: 24px;
+   top: 45%;
 }
-.container h1 {
-    position: absolute;
-    font-size: 28px;
-    line-height: 34px;
-}   
-/* Form */
-form {
-    margin-top: 48px;
+.container h1{
+    left: 9.03%;
+    top: 55%;
+    font-size: 44.8276px;
+    line-height: 55px;
+
 }
-/* label do imput */
-label {
-    position: absolute;
-    top: 600px;
-    text-align: left;
+
+/* Tablet 768 - Formulário */
+.label-hero {
+    width: 452px;
+    height: 20px;
+    left: 9.03%;
+    top: 810px;
+    font-size: 16px;
+    
 }
-input[type="email"] {
+.input-hero[type="email"] {
+    width: 48%;
+    height: 41px;
+    left: 9.03%;
+    top: 860px;
+}
+.button-hero[type="submit"] { 
+    left: 60%;
+    top: 860px;
+}
+
+/* Tablet 768 - Funcionalidades */
+.funcionalities{
+    height: 2600px;
+    margin: 0px;
+}
+.mockup {
+    width: 78%;
+    height: auto;
+    margin-top: 240px;
+    left: 11%;
+}
+.funcionalities h2 {
+    font-size: 48px;
+    line-height: 44px;
+    left: 8%;
+    margin-top: 32px;
+}
+.funcionalities h3 {
+    font-size: 48px;
+    line-height: 29px;
+    margin-top: 1500px;
+}
+.funcionalities ul {
+    width: 80%;
+    left: 8%;
+    height: auto;
+    margin-top: 1560px;
+    font-size: 32px;
+    line-height: 60px;
+}
+
+/* Tablet 768 - Footer */
+.container-footer label{
+    width: 257px;
+    left: 9.03%;
+    font-size: 16px;
+}  
+.container-footer input[type="email"] {
     position: absolute;
-    width: 380px;
-    height: 48px;
+    width: 40%;
+    height: 41px;
+    left: 9.03%;
     background: #FFFFFF;
     border-radius: 16px;
     border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    top: 660px;
+    padding-left: 12px;
+    margin-top: 360px;
 }
-input[type="email"]::placeholder {
-    color: #c5c5c5;
+.container-footer button[type="submit"] {
+padding: 8px 16px;
+border: none;
+position: absolute;
+width: 228px;
+height: 43px;
+left: 9.03%;
+background: #F9C200;
+border-radius: 16px;
+cursor: pointer;
+margin-top: 466px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #A80000;
 }
-button[type="submit"] {
-    position: absolute;
-    top: 660px;
+
+/* Footer -  Redes sociais */
+.container-footer h2{
+font-weight: 700;
+font-size: 16px;
+margin-top: 66px;
 }
-.mockup {
-    position: static;
-    width: 100%;
-    height: auto;
-    margin-bottom: 24px;
+.social-icons {
+    margin-top: 106px;
 }
-.funcionalities h2 {
-    position: static;
-    width: 100%;
-    text-align: center;
-    font-size: 28px;
-    line-height: 34px;
-    margin-top: 48px;
-    margin-bottom: 24px;
+
+/* Footer - Dúvidas e Parcerias */
+.container-footer h3{
+    font-size: 16px;
+    margin-top: 180px;
 }
-.funcionalities h3 {
-    position: static;
-    width: 100%;
-    text-align: center;
-    font-size: 24px;
-    line-height: 29px;
-    margin-top: 48px;
+.container-footer h6{
+        font-size: 16px;
+        margin-top: 216px;
 }
-.funcionalities ul {
-    position: static;
-    width: 100%;
-    height: auto;
-    margin-top: 24px;
-    margin-bottom: 48px;
-    padding-left: 24px;
-    padding-right: 24px;
+
+/* Footer - Direitos Reservados */
+.container-footer h5{
+    left: 30%;
 }
 }
 
