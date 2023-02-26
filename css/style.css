@@ -452,164 +452,122 @@ margin-top: 66px;
 
 /* MOBILE */
 @media only screen and (max-width: 418px) {
-.container {
-    padding: 0px;
-} 
+
 .background-hero {
     display: flex;
         background: url(../img/background-hero-mobile.jpg) no-repeat center;
         background-size: cover;
         z-index: -1;
 }
-.logo{
-    position: absolute;
-    width: 100px;
-    height: auto;
-    left: 24px;
-    top: 48px;  
+.logo {
+    top: 48px;
 }
-.container p{
-    position: absolute;
-    left: 24px;
-    top: 160px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 29px;
-    color: #FFFFFF;
+.container p {
+   top: 27%;
+   font-size: 24px;
+   line-height: 30px;
 }
 .container h1{
-    position: absolute;
-    width: 360px;
-    left: 24px;
-    top: 240px;
-    font-family: 'Montserrat';
-    font-style: bold;
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 39px;
-    color: #F9C200;
-    padding: 0;
-    margin: 0;
+    left: 9.03%;
+    top: 37%;
+    font-size: 28px;
+    line-height: 45px;
 }
 
-/* Forms */
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-label {
-    position: absolute;
-    width: 300px;
-    height: 20px;
-    left: 24px;
-    top: 408px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
+/* mobile 418 - Formulário */
+.label-hero {
+    width: 318px;
+    height: 36px;
+    left: 9.03%;
+    top: 67%;
     font-size: 16px;
-    line-height: 20px;
-    color: #FFFFFF;
-} 
-input[type="email"] {
-    position: absolute;
-    width: 296px;
+    line-height: 30px;
+}
+.input-hero[type="email"] {
+    width: 80%;
     height: 41px;
-    left: 24px;
-    top: 460px;
-    background: #FFFFFF;
-    border-radius: 16px;
-    border: none;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    padding-left: 12px
+    left: 9.03%;
+    top: 77%;
 }
-input[type="email"]::placeholder {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #c5c5c5;
-}
-button[type="submit"] {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 16px;
-    position: absolute;
-    left: 24px;
-    top: 514px;
-    color: #FFFFFF;
-    background: #A80000;
-    border-radius: 16px;
-    border: none;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    cursor: pointer;
-}
-button[type="submit"]:hover{
-    background: #F9C200;
-    color: #A80000;
-    cursor: pointer;
+.button-hero[type="submit"] { 
+    left: 9.03%;
+    top: 85%;
 }
 
-/*Funcionalities*/
-.funcionalities h2{
-    
-    left: 24px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 29px;
-    color: #FFFFFF;
-    padding: 0;
-    margin: 0;
+/* Tablet 768 - Funcionalidades */
+.funcionalities{
+    height: 1620px;
+    margin: 0px;
 }
 .mockup {
-    width: 308px;
+    width: 78%;
     height: auto;
-    padding-top: 32px;
-    align-items: center;
-}   
-.funcionalities h3{
-position: absolute;
-width: 238px;
-height: 29px;
-left: 23px;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 29px;
-color: #A80000;
-padding: 0;
-margin: 0;
-}   
-.funcionalities ul{
-    position: absolute;
-    width: 309px;
-    height: 482px;
-    left: 48px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 34px;
-    color: #830202; 
-margin: 0;
-padding: 48px 0px 0px 0px ;
+    margin-top: 240px;
+    left: 11%;
+}
+.funcionalities h2 {
+    font-size: 24px;
+    line-height: 44px;
+    left: 8%;
+    margin-top: 32px;
+}
+.funcionalities h3 {
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 840px;
+    left: 8%;
+}
+.funcionalities ul {
+    width: 80%;
+    left: 6%;
+    height: auto;
+    margin-top: 860px;
+    font-size: 20px;
+    line-height: 45px;
 }
 
-    
+/* Mobile 418 - Footer */
+footer {
+    height: 540px;
+  }
+.container-footer label{
+    left: 19%;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 160px;
+}
+.container-footer input[type="email"] {
+width: 75%;
+height: 41px;
+left: 11%;
+margin-top: 320px;
+}
+.container-footer button[type="submit"] {
+    margin-top: 430px;
+    left: 21%;
+}
+
+/* Mpbile Footer -  Redes sociais */
+.container-footer h2{
+margin-top: 282px;
+right: 25%;
+}
+.social-icons {
+margin-top: 326px;
+right: 31%;
+}
+
+/* Mobile Footer - Dúvidas e Parcerias */
+.container-footer h3{
+    right: 30%;
+    margin-top: 390px;
+}
+.container-footer h6{
+    margin-top: 428px;
+    right: 23%;
+}
+.container-footer h5{
+left: 15%;
+margin-top: 548px;
+}
 }
