@@ -177,6 +177,10 @@ padding-top: 24px;
     color: #830202;  
 }
 
+footer {
+    background-color: #830202d;
+}
+
 .form-footer form {
     display: flex;
     flex-direction: column;
