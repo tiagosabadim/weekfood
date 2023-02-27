@@ -42,13 +42,14 @@ background-color:#151515;
 .container h1{
     position: absolute;
     left: 9.03%;
-    top: 290px;
+    top: 360px;
     font-family: 'Montserrat';
     font-style: bold;
     font-weight: 800;
     font-size: 44.8276px;
     line-height: 55px;
     color: #F9C200;
+    margin: 0;
 }
 
 /*Formulário de pré inscrição*/
