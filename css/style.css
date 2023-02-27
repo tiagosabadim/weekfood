@@ -19,8 +19,8 @@ body {
 /* Logomarca week food */
 .logo {
     position: absolute;
-    width: 125px;
-    height: 141.75px;
+    width: auto;
+    height: 120px;
     left: 9.03%;
     top: 66px;
 }
@@ -29,11 +29,11 @@ body {
 .container p{
     position: absolute;
     left: 9.03%;
-    top: 220px;
+    top: 200px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 24px;
     line-height: 45px;
     color: #FFFFFF;
 }
@@ -42,11 +42,11 @@ body {
 .container h1{
     position: absolute;
     left: 9.03%;
-    top: 360px;
+    top: 310px;
     font-family: 'Montserrat';
     font-style: bold;
     font-weight: 800;
-    font-size: 44.8276px;
+    font-size: 34px;
     line-height: 55px;
     color: #F9C200;
     margin: 0px 0px 0px 0px;
@@ -63,7 +63,7 @@ body {
     width: 452px;
     height: 20px;
     left: 9.03%;
-    top: 580px;
+    top: 500px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -76,7 +76,7 @@ body {
     width: 22%;
     height: 41px;
     left: 9.03%;
-    top: 620px;
+    top: 530px;
     background: #FFFFFF;
     border-radius: 16px;
     border: none;
@@ -103,7 +103,7 @@ body {
     padding: 12px 16px;
     position: absolute;
     left: 33%;
-    top: 620px;
+    top: 530px;
     color: #FFFFFF;
     background: #A80000;
     border-radius: 16px;
@@ -220,7 +220,6 @@ footer button[type="submit"] {
 padding: 8px 16px;
 border: none;
 position: absolute;
-width: 228px;
 height: 43px;
 left: 9.03%;
 background: #F9C200;
