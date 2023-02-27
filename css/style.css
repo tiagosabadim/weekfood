@@ -9,7 +9,7 @@ background-color:#151515;
 .background-hero {
     background: url(../img/background-hero.jpg);
     background-size: cover;
-    position: relative;
+    position:sticky;
     width: 100%;
     height: 100vh;
     top: 0;
@@ -350,6 +350,7 @@ inline-size: auto;
 .button-hero[type="submit"] { 
     left: 60%;
     top: 860px;
+    height: 43px;
 }
 
 /* Tablet 768 - Funcionalidades */
@@ -365,9 +366,10 @@ inline-size: auto;
 }
 .funcionalities h2 {
     font-size: 48px;
-    line-height: 44px;
-    left: 8%;
+    line-height: 54px;
+    left: 11%;
     margin-top: 32px;
+    padding: 0;
 }
 .funcionalities h3 {
     font-size: 48px;
@@ -492,10 +494,11 @@ margin-top: 66px;
 .button-hero[type="submit"] { 
     left: 9.03%;
     top: 85%;
+    height: 41px;
 }
 
-/* Tablet 768 - Funcionalidades */
-.funcionalities{
+/* Mobile 418 - Funcionalidades */
+.funcionalities {
     height: 1690px;
     margin: 0px;
 }
@@ -508,7 +511,7 @@ margin-top: 66px;
 .funcionalities h2 {
     font-size: 24px;
     line-height: 44px;
-    left: 8%;
+    left: 11%;
     margin-top: 32px;
 }
 .funcionalities h3 {
@@ -529,8 +532,7 @@ margin-top: 66px;
 /* Mobile 418 - Footer */
 footer {
     height: 540px;
-  
-  }
+}
 .container-footer label{
     left: 19%;
     font-size: 16px;
