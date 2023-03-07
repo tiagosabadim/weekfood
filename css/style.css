@@ -455,9 +455,9 @@ margin-top: 66px;
 
 .background-hero {
     display: flex;
-        background: url(../img/background-hero-mobile.jpg) no-repeat center;
-        background-size: cover;
-        z-index: -1;
+    background: url(../img/background-hero-mobile.jpg) no-repeat center;
+    background-size: cover;
+    z-index: -1;
 }
 .logo {
     top: 48px;
@@ -468,8 +468,9 @@ margin-top: 66px;
    line-height: 30px;
 }
 .container h1{
+   width: 320px;
     left: 9.03%;
-    top: 37%;
+    top: 40%;
     font-size: 28px;
     line-height: 45px;
 }
